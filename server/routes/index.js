@@ -4,19 +4,19 @@ let router = express.Router();
 let indexController = require('../controllers/index');
 
 /* GET home page. */
-router.get('/', indexController.displayHomePage);
+router.get('/home', indexController.displayHomePage); 
 
 /* GET home page. */
 router.get('/home', indexController.displayHomePage);
 
 /* GET About Us page. */
-router.get('/about', indexController.displayAboutPage);
+router.get('/aboutme', indexController.displayAboutPage);
 
 /* GET Products page. */
-router.get('/products', indexController.displayProductsPage);
+router.get('/product', indexController.displayProductsPage);
 
 /* GET Services page. */
-router.get('/services', indexController.displayServicesPage);
+router.get('/service', indexController.displayServicesPage);
 
 /* GET Contact Us page. */
 router.get('/contact', indexController.displayContactPage);
