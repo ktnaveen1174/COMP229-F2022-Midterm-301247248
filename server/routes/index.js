@@ -22,7 +22,7 @@ router.get('/service', indexController.displayServicesPage);
 router.get('/contact', indexController.displayContactPage);
 
 /* GET book-list page. */
-router.get('/book-list', indexController.displayServicesPage);
+router.get('/book', indexController.displayBooksPage);
 
 /* GET Route for displaying the Login page */
 router.get('/login', indexController.displayLoginPage);

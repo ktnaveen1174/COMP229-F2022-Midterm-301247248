@@ -28,7 +28,7 @@ module.exports.displayServicesPage = (req, res, next) => {
 }
 
 
-module.exports.displayContactPage = (req, res, next) => {
+module.exports.displayBooksPage = (req, res, next) => {
     res.render('books-list', { title: 'Books', displayName: req.user ? req.user.displayName : ''});
 }
 
