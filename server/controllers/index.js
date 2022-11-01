@@ -27,6 +27,11 @@ module.exports.displayServicesPage = (req, res, next) => {
     res.render('service', { title: 'Services', displayName: req.user ? req.user.displayName : ''});
 }
 
+
+module.exports.displayContactPage = (req, res, next) => {
+    res.render('books-list', { title: 'Books', displayName: req.user ? req.user.displayName : ''});
+}
+
 module.exports.displayContactPage = (req, res, next) => {
     res.render('contact', { title: 'Contact', displayName: req.user ? req.user.displayName : ''});
 }
