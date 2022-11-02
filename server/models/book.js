@@ -1,4 +1,8 @@
-//models-book.js-Aafaq-Muzaffar-301190210-Nov-01-2022
+/* File name: book.js
+* Student name: Naveen Kanmani Thirunavukkarasu
+* Student ID: 301247248
+* Date: Oct 31, 2022 */
+
 let mongoose = require('mongoose');
 
 // create a model class

@@ -1,4 +1,8 @@
-//configuration-app.js-Aafaq-Muzaffar-301190210-Nov-01-2022
+/* File name: app.js
+* Student name: Naveen Kanmani Thirunavukkarasu
+* Student ID: 301247248
+* Date: Oct 31, 2022 */
+
 // installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');
